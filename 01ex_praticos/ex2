@@ -1,0 +1,8 @@
+C:\Windows\System32>start calc
+
+C:\Windows\System32>start wordpad
+
+C:\Windows\System32>tasklist | findstr /I "Calculator wordpad"
+CalculatorApp.exe           3752 Console            1   74.172 K
+wordpad.exe                 6842 Console            1   53.752 K
+CalculatorApp.exe          13600 Console            1   79.712 K

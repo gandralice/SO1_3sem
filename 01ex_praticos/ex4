@@ -1,0 +1,15 @@
+C:\Windows\System32>start notepad
+
+C:\Windows\System32>start notepad
+
+C:\Windows\System32>start notepad
+
+C:\Windows\System32>tasklist | findstr /i "notepad"
+Notepad.exe           3116 Console            1   87.468 k
+Notepad.exe           8360 Console            1   13.020 k
+Notepad.exe           3428 Console            1   13.048 k
+
+C:\Windows\System32>taskkill /IM notepad.exe /F
+EXITO: o processo "Notepad.exe" com PID 3116 foi finalizado.
+EXITO: o processo "Notepad.exe" com PID 8360 foi finalizado.
+EXITO: o processo "Notepad.exe" com PID 3428 foi finalizado.

@@ -1,0 +1,2 @@
+C:\Windows\System32>taskkill /IM notepad.exe /F
+ÊXITO: o processo "Notepad.exe" com PID 13456 foi finalizado.
