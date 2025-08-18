@@ -1,0 +1,13 @@
+Get-Process | Where-Object { $ _. MainWindowHandle -eq 0 }
+
+PM(K)       WS(K)       CPU(s)       Id       SI  ProcessName
+  3244       7860                   5620       0  AggregatorHost
+  7164      26132         0,11      6968       1  ApplicationFrameHost
+  4088       5940                   2112       1  atieclxx
+  1492       2476                   1888       0  atiesrxx
+  6300      12940         0,03      3956       0 audiodg
+298312     356600        11,44      1520       1 chrome
+503276     463016         6,36      5400       1 chrome
+ 19308      54480         0,09      5532       1 chrome
+ 29608      76156         0,38      6428       1 chrome
+152252     219268        14,95      6628       1 chrome

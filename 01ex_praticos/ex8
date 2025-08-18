@@ -1,0 +1,2 @@
+powershell -Command "Get-WmiObject Win32_Process | Where-Object {
+$ _. GetOwner().User -eq 'NOME_DO_USUARIO' } | Select-Object Processld, Name"

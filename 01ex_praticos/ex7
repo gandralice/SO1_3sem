@@ -1,0 +1,7 @@
+C:\Windows\System32>tasklist | findstr "explorer.exe"
+explorer.exe            16072 Console           1   168.004 K
+
+C:\Windows\System32>taskkill /IM explorer.exe /F
+ÊXITO: o processo "explorer.exe" com PID 16072 foi finalizado.
+
+C:\Windows\System32>start explorer.exe
